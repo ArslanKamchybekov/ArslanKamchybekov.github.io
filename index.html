@@ -156,13 +156,15 @@
         <div class="start" style="font-size: 24px;">Aspiring Software Engineer</div>
     </div>
 
-    <a href="#services">
-        <div class="scroll-down">
-          <span>
-            <i class="fa fa-angle-down fa-2x"></i>
-          </span>
-        </div>
-    </a>
+    <div class="scroll-container">
+        <a href="#services">
+          <div class="scroll-down">
+            <span>
+              <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+          </div>
+        </a>
+    </div>      
 </section>
 
 <!-- Home end -->
@@ -173,22 +175,14 @@
     <nav class="navbar navbar-custom" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
             </div>
-            <div class="collapse navbar-collapse" id="custom-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div><!-- .container -->
     </nav>
 </header>
@@ -215,7 +209,7 @@
                         <img src="assets/images/arslan_image.png" alt="Your Image">
                     </div>
                     <div class="about-description" style="margin-bottom: 20px;">
-                        <p>Hello, my name is Arslan Kamchybekov, and I'm a senior at Elk Grove High School. I'm also a future Software Engineer. I grew up in Kyrgyzstan, and I'm currently living in Des Plaines, IL. I am an experienced App Developer with a demonstrated history of working in the tech industry. In my free time, I enjoy playing soccer and weightlifting.</p>
+                        <p>Hello, my name is Arslan Kamchybekov, and I'm a senior at Elk Grove High School. I'm also a future Software Engineer. I grew up in Kyrgyzstan, and I'm currently living in Des Plaines, IL. I am an experienced App Developer with a demonstrated history of working in the tech industry.</p>
                     </div>
                     <div class="iconbox">
                         <div class="iconbox-text">
@@ -296,144 +290,116 @@
                 </div>
             </div>
         </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Mobile Applications Developer Intern</h3>
-                <h4 class="experience-company" style="font-size: 10px;">FindingFive - Remote, USA</h4>
-                <p class="experience-date">01.23 - 03.23</p>
-                <ul class="experience-description">
-                    <li>Created the Russian version of the app</li>
-                    <li>Implemented the NLP Voice recognition function</li>
-                    <li>Integrated Firebase Cloud Notifications</li>
-                </ul>
+        <!-- Experience 1 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">Co-founder/Algebra Tutor</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">MATHEMATICIANS.KG - Bishkek, KG</h4>
+                    <p class="experience-date">06.22 - Present</p>
+                    <ul class="experience-description">
+                        <li>Created the Accelerated Physics and Math courses in a team with 7 mentors</li>
+                        <li>Helped 30+ students to get into Top #1 school in the country - EC APMSL 61</li>
+                        <li>Hosted a Math competition with a 200k soms prize fund</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 2 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">Mobile Applications Developer Intern</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">FindingFive - Remote, USA</h4>
+                    <p class="experience-date">01.23 - 04.23</p>
+                    <ul class="experience-description">
+                        <li>Created the Russian version of the app</li>
+                        <li>Implemented the NLP Voice recognition function</li>
+                        <li>Integrated Firebase Cloud Notifications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 3 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">Android Developer Intern</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">GeekStudio - Bishkek, KG</h4>
+                    <p class="experience-date">03.22 - 08.22</p>
+                    <ul class="experience-description">
+                        <li>Deployed Dagger-Hilt, Coroutines, REST API to set up asynchronous URL requests</li>
+                        <li>Integrated a local cache function using Room local database</li>
+                        <li>Utilized Firebase to store user’s data and perform authentication</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 4 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">Android Head-Mentor</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">GeekTech - Bishkek, KG</h4>
+                    <p class="experience-date">07.21 - 03.22</p>
+                    <ul class="experience-description">
+                        <li>Hosted 17 trial classes for 120+ incoming students</li>
+                        <li>Created the program of “Android UI Basics” course</li>
+                        <li>Tutored 30+ students in MaterialUI designing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 5 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">Founder of a Computer Science Club</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">CONOVATION - Bishkek, KG</h4>
+                    <p class="experience-date">04.21 - 07.22</p>
+                    <ul class="experience-description">
+                        <li>50+ club members</li>
+                        <li>Built a school website - 8 developers involved</li>
+                        <li>35 club members were placed in the Top 100 in the IT Cup Kyrgyzstan contest</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 6 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">Student Council</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">EC APMSL 61 - Bishkek, KG</h4>
+                    <p class="experience-date">09.21 - 12.22</p>
+                    <ul class="experience-description">
+                        <li>Hosted 3 STEM weeks</li>
+                        <li>Sent five trucks of humanitarian aid to war victims</li>
+                        <li>Founded a Computer Science club</li>
+                        <li>Made a $15k contribution (school laptops)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience 7 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item wow slideInUp">
+                    <h3 class="experience-title">SAT Math Tutor</h3>
+                    <h4 class="experience-company" style="font-size: 10px;">onStudy education center - Bishkek, KG</h4>
+                    <p class="experience-date">08.22 - 12.22</p>
+                    <ul class="experience-description">
+                        <li>Created the SAT Math course</li>
+                        <li>21/28 students received a math score of 700+</li>
+                        <li>Earned money to purchase a laptop</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">SAT Math Tutor</h3>
-                <h4 class="experience-company" style="font-size: 10px;">onStudy education center - Bishkek, KG</h4>
-                <p class="experience-date">08.22 - 12.22</p>
-                <ul class="experience-description">
-                    <li>Created the SAT Math course</li>
-                    <li>Held group and individual classes</li>
-                    <li>20/28 students received a math score of 700+</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Founder/Volunteer</h3>
-                <h4 class="experience-company" style="font-size: 10px;">PROSPER.KG - Bishkek, KG</h4>
-                <p class="experience-date">07.22 - 10.22</p>
-                <ul class="experience-description">
-                    <li>Improved the infrastructure of 3 parks by planting trees</li>
-                    <li>Reduced the amount of trash by setting 12 trash cans in 5 districts of the city</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Co-founder/Tutor/App Developer</h3>
-                <h4 class="experience-company" style="font-size: 10px;">MATHEMATICIANS.KG - Bishkek, KG</h4>
-                <p class="experience-date">06.22 - 11.22</p>
-                <ul class="experience-description">
-                    <li>Created the course of Accelerated Math and Geometry in a team with 7 mentors</li>
-                    <li>Helped 30+ students to get into Top #1 school in the country - EC APMSL 61</li>
-                    <li>Developed a "MATHEMATICIANS APP" for the convenience of our students</li>
-                    <li>Hosted a Math Olympiad with a 200k soms prize fund</li>
-                    <li>Tutored 50+ students for free</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Mobile Applications Developer Intern</h3>
-                <h4 class="experience-company" style="font-size: 10px;">GeekStudio - Bishkek, KG</h4>
-                <p class="experience-date">03.22 - 05.22</p>
-                <ul class="experience-description">
-                    <li>Deployed Dagger-Hilt, Coroutines, REST API to set up asynchronous URL requests</li>
-                    <li>Integrated a local cache function using Room local database</li>
-                    <li>Utilized Firebase to store user’s data and perform authentication</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Head - Mentor</h3>
-                <h4 class="experience-company" style="font-size: 10px;">GeekTech - Bishkek, KG</h4>
-                <p class="experience-date">11.21 - 01.22</p>
-                <ul class="experience-description">
-                    <li>Hosted trial classes for incoming students</li>
-                    <li>Created the program of the 3rd month of the Android Dev course</li>
-                    <li>Earned some money by mentoring students</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Android Mentor</h3>
-                <h4 class="experience-company" style="font-size: 10px;">HelloWorld - Bishkek, KG</h4>
-                <p class="experience-date">07.21 - 10.22</p>
-                <ul class="experience-description">
-                    <li>Created the program of "The BASICS of Android UI" course</li>
-                    <li>30+ students learned basic Android UI designing</li>
-                    <li>Tutored MaterialUI and XML designing</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">School Parliament - Event organizer STEM</h3>
-                <h4 class="experience-company" style="font-size: 10px;">EC APMSL 61 - Bishkek, KG</h4>
-                <p class="experience-date">09.21 - 12.22</p>
-                <ul class="experience-description">
-                    <li>Hosted 3 STEM weeks</li>
-                    <li>Hosted 3 English weeks</li>
-                    <li>Made a $15k contribution (school laptops)</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="experience-item wow slideInUp">
-                <h3 class="experience-title">Founder of Computer Science Club</h3>
-                <h4 class="experience-company" style="font-size: 10px;">CONOVATION - Bishkek, KG</h4>
-                <p class="experience-date">04.21 - 07.22</p>
-                <ul class="experience-description">
-                   <li>50+ club members</li>
-                    <li>Built a school website and an app - 8 developers involved</li>
-                    <li>30 club members were placed in the Top 100 in the IT Cup Kyrgyzstan contest</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- .container -->
+    <!-- .container -->
 </section>
+
 
 <!-- Experience end -->
 
@@ -456,23 +422,23 @@
                     <div class="project-container">
                         <div class="project-card">
                             <img src="assets/images/caps_app.jpg" alt="Project 1">
-                            <p class="project-description">A mobile E-commerce app in which users can buy caps, or make their own.</p>
+                            <p class="project-description">A mobile E-commerce app where users can buy caps, or create their own.</p>
                         </div>
                         <div class="project-card">
                             <img src="assets/images/mathematicians_app.jpg" alt="Project 2">
-                            <p class="project-description">A mobile app in which users can access video lectures and textbook materials.</p>
+                            <p class="project-description">A mobile app where users can access video lectures and textbook materials.</p>
                         </div>
                         <div class="project-card">
                             <img src="assets/images/weather_app.jpg" alt="Project 3">
-                            <p class="project-description">A mobile app in which users can access weather data of any location.</p>
+                            <p class="project-description">A mobile app where users can access weather data of any location.</p>
                         </div>
                         <div class="project-card">
                             <img src="assets/images/chat_app.jpg" alt="Project 4">
                             <p class="project-description">A mobile chat app that allows users to share information with each other.</p>
                         </div>
                         <div class="project-card">
-                            <img src="assets/images/spotify.jpg" alt="Project 5">
-                            <p class="project-description">A mobile app that allows users to listen to the music (music player).</p>
+                            <img src="assets/images/news_app.jpg" alt="Project 5">
+                            <p class="project-description">A mobile app that provides latest news depending on the category chosen.</p>
                         </div>
                         <div class="project-card">
                             <img src="assets/images/recipe_app.jpg" alt="Project 6">

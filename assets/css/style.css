@@ -27,6 +27,40 @@ a:hover {
   text-decoration: none;
   color: #999;
 }
+/* Container for centering the button */
+.scroll-container {
+  width: 100px; /* Set your desired width */
+  margin: 0 auto;
+}
+
+/* Scroll-down button style */
+.scroll-down {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+/* Arrow style */
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  padding: 6px;
+  transition: transform 0.2s ease;
+}
+
+/* Animation on hover */
+.scroll-down:hover .arrow {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
 
 /* ---------------------------------------------- /*
  * Transition elsements
