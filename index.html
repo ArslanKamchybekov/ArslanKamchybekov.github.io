@@ -39,7 +39,7 @@
         #portfolio {
           background-color: #f7f7f7;
           padding: 60px 0;
-          text-align: center; /* Center the content horizontally */
+          text-align: center;
         }
       
         .pfblock-header {
@@ -64,7 +64,7 @@
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           grid-gap: 20px;
-          justify-content: center; /* Center the grid horizontally */
+          justify-content: center;
         }
       
         .project-card {
@@ -82,7 +82,7 @@
         }
       
         .project-description {
-          font-size: 14px;
+          font-size: 16px;
           color: #555;
         }
       
@@ -135,6 +135,14 @@
     
         .btn-lg {
             margin-bottom: 20px;
+        }
+        .about-image {
+            float: left; /* Float the image to the left */
+            margin-right: 20px; /* Add margin to the right of the image */
+        }
+
+        .about-description {
+            font-size: 16px; /* Increase the font size of the description */
         }
     </style>    
 
@@ -215,67 +223,15 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="wow slideInLeft">
-                    <div class="about-image" style="padding-bottom: 20px;">
+                    <div class="about-image">
                         <img src="assets/images/arslan_image.png" alt="Your Image">
-                    </div>
-                    <div class="about-description" style="margin-bottom: 20px;">
-                        <p>Hello, my name is Arslan Kamchybekov, and I'm a senior at Elk Grove High School. I'm also a future Software Engineer. I grew up in Kyrgyzstan, and I'm currently living in Des Plaines, IL. I am an experienced App Developer with a demonstrated history of working in the tech industry.</p>
-                    </div>
-                    <div class="iconbox">
-                        <div class="iconbox-text">
-                            <h3 class="iconbox-title">Languages</h3>
-                            <div class="iconbox-desc tal">
-                                <ul>
-                                    <li>Java</li>
-                                    <li>Python</li>
-                                    <li>C++</li>
-                                    <li>Kotlin</li>
-                                    <li>Swift</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-
             <div class="col-sm-8">
-                <div class="iconbox wow slideInLeft">
-                    <div class="iconbox-text">
-                        <h3 class="iconbox-title">Education</h3>
-                        <div class="iconbox-desc tal">
-                            <p><strong>ELK GROVE HIGH SCHOOL, IL, US</strong> (01.2023 - present)</p>
-                            <p>11th grade (2nd Semester) GPA:</p>
-                            <p>Weighted: 4.27</p>
-                            <p>Unweighted: 4.0 / 4.0</p>
-                            <br>
-                            <p><strong>EC APMSL 61, Bishkek, Kyrgyzstan</strong> (09.2019-12.2022)</p>
-                            <p>9th grade GPA: 3.8 / 4.0</p>
-                            <p>10th grade GPA: 3.8 / 4.0</p>
-                            <p>11th grade (1st quarter) GPA: 3.7 / 4.0</p>
-                            <br>
-                            <p><strong>College Level Classes</strong></p>
-                            <ul>
-                                <li>12th grade - Elk Grove High School:</li>
-                                <ul>
-                                    <li>AP Physics C: Electricity & Magnetism</li>
-                                    <li>AP Physics C: Mechanics</li>
-                                    <li>AP Calculus BC</li>
-                                    <li>AP Computer Science A</li>
-                                    <li>AP US History</li>
-                                    <li>College Composition</li>
-                                </ul>
-                                <li>Summer 2022-2023:</li>
-                                <ul>
-                                    <li>Northwestern University College Credit Course - COMP_SCI 110</li>
-                                    <li>Harvard University CS50’s Introduction to Artificial Intelligence with Python</li>
-                                </ul>
-                                <li>11th grade 2nd Semester - Elk Grove High School:</li>
-                                <ul>
-                                    <li>AP Physics 1</li>
-                                    <li>Honors Calculus A</li>
-                                </ul>
-                            </ul>
-                        </div>
+                <div class="wow slideInLeft">
+                    <div class="about-description">
+                        <p>Hello, my name is Arslan Kamchybekov, and I'm a senior at Elk Grove High School. I'm also a future Software Engineer. I grew up in Kyrgyzstan, and I'm currently living in Des Plaines, IL. I am an experienced App Developer with a demonstrated history of working in the tech industry.</p>
                     </div>
                 </div>
             </div>
@@ -304,13 +260,12 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="experience-item wow slideInUp">
-                    <h3 class="experience-title">Co-founder/Algebra Tutor</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">MATHEMATICIANS.KG - Bishkek, KG</h4>
-                    <p class="experience-date">06.22 - Present</p>
-                    <ul class="experience-description">
-                        <li>Created the Accelerated Physics and Math courses in a team with 7 mentors</li>
-                        <li>Helped 30+ students to get into Top #1 school in the country - EC APMSL 61</li>
-                        <li>Hosted a Math competition with a 200k soms prize fund</li>
+                    <h3 class="experience-title">TKS Innovator</h3>
+                    <h4 class="experience-company" style="font-size: 14px;">The Knowledge Society, New York, USA</h4>
+                    <p class="experience-date">September 2023 - Present</p>
+                    <ul class="experience-description" style="font-size: 16px;">
+                        <li>Developing an ML model to detect diabetic retinopathy, using DRD dataset on TensorFlow.</li>
+                        <li>Using InceptionV3 as my base for retina image recognition and CNN training.</li>
                     </ul>
                 </div>
             </div>
@@ -320,12 +275,12 @@
             <div class="col-sm-12">
                 <div class="experience-item wow slideInUp">
                     <h3 class="experience-title">Mobile Applications Developer Intern</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">FindingFive - Remote, USA</h4>
-                    <p class="experience-date">01.23 - 04.23</p>
-                    <ul class="experience-description">
-                        <li>Created the Russian version of the app</li>
-                        <li>Implemented the NLP Voice recognition function</li>
-                        <li>Integrated Firebase Cloud Notifications</li>
+                    <h4 class="experience-company" style="font-size: 14px;">FindingFive, New Jersey, USA</h4>
+                    <p class="experience-date">January 2023 - April 2023</p>
+                    <ul class="experience-description" style="font-size: 16px;">
+                        <li>Built a real-time chat: service assistant - user.</li>
+                        <li>Implemented NLP Voice recognition functionality to enhance UX.</li>
+                        <li>Integrated Cloud notifications to enable real-time communication.</li>
                     </ul>
                 </div>
             </div>
@@ -334,74 +289,13 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="experience-item wow slideInUp">
-                    <h3 class="experience-title">Android Developer Intern</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">GeekStudio - Bishkek, KG</h4>
-                    <p class="experience-date">03.22 - 08.22</p>
-                    <ul class="experience-description">
-                        <li>Deployed Dagger-Hilt, Coroutines, REST API to set up asynchronous URL requests</li>
-                        <li>Integrated a local cache function using Room local database</li>
-                        <li>Utilized Firebase to store user’s data and perform authentication</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Experience 4 -->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item wow slideInUp">
-                    <h3 class="experience-title">Android Head-Mentor</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">GeekTech - Bishkek, KG</h4>
-                    <p class="experience-date">07.21 - 03.22</p>
-                    <ul class="experience-description">
-                        <li>Hosted 17 trial classes for 120+ incoming students</li>
-                        <li>Created the program of “Android UI Basics” course</li>
-                        <li>Tutored 30+ students in MaterialUI designing</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Experience 5 -->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item wow slideInUp">
-                    <h3 class="experience-title">Founder of a Computer Science Club</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">CONOVATION - Bishkek, KG</h4>
-                    <p class="experience-date">04.21 - 07.22</p>
-                    <ul class="experience-description">
-                        <li>50+ club members</li>
-                        <li>Built a school website - 8 developers involved</li>
-                        <li>35 club members were placed in the Top 100 in the IT Cup Kyrgyzstan contest</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Experience 6 -->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item wow slideInUp">
-                    <h3 class="experience-title">Student Council</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">EC APMSL 61 - Bishkek, KG</h4>
-                    <p class="experience-date">09.21 - 12.22</p>
-                    <ul class="experience-description">
-                        <li>Hosted 3 STEM weeks</li>
-                        <li>Sent five trucks of humanitarian aid to war victims</li>
-                        <li>Founded a Computer Science club</li>
-                        <li>Made a $15k contribution (school laptops)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Experience 7 -->
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item wow slideInUp">
-                    <h3 class="experience-title">SAT Math Tutor</h3>
-                    <h4 class="experience-company" style="font-size: 10px;">onStudy education center - Bishkek, KG</h4>
-                    <p class="experience-date">08.22 - 12.22</p>
-                    <ul class="experience-description">
-                        <li>Created the SAT Math course</li>
-                        <li>21/28 students received a math score of 700+</li>
-                        <li>Earned money to purchase a laptop</li>
+                    <h3 class="experience-title">Android Engineer Intern</h3>
+                    <h4 class="experience-company" style="font-size: 14px;">GeekStudio - Bishkek, KG</h4>
+                    <p class="experience-date">March 2022 - August 2022</p>
+                    <ul class="experience-description" style="font-size: 16px;">
+                        <li>Used Dagger-Hilt, Coroutines, and REST API to establish efficient asynchronous URL requests.</li>
+                        <li>Incorporated a local cache function using Room local database, improving data retrieval.</li>
+                        <li>Integrated Firebase to store user data and implement authentication features.</li>
                     </ul>
                 </div>
             </div>
