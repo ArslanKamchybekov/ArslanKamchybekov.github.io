@@ -138,11 +138,28 @@
         }
         .about-image {
             float: left; /* Float the image to the left */
-            margin-right: 20px; /* Add margin to the right of the image */
+            width: 80%; /* Adjust the width of the image */
         }
 
         .about-description {
-            font-size: 16px; /* Increase the font size of the description */
+            font-size: 24px; /* Increase the font size of the description */
+        }
+        /* Add padding to separate experience items */
+        .experience-item {
+            padding-bottom: 24px; /* Adjust the desired padding value */
+        }
+
+        /* Modify the font sizes */
+        .experience-title {
+            font-size: 20px;
+        }
+
+        .experience-company {
+            font-size: 14px;
+        }
+
+        .experience-description {
+            font-size: 24px;
         }
     </style>    
 
@@ -261,9 +278,9 @@
             <div class="col-sm-12">
                 <div class="experience-item wow slideInUp">
                     <h3 class="experience-title">TKS Innovator</h3>
-                    <h4 class="experience-company" style="font-size: 14px;">The Knowledge Society, New York, USA</h4>
+                    <h4 class="experience-company">The Knowledge Society, New York, USA</h4>
                     <p class="experience-date">September 2023 - Present</p>
-                    <ul class="experience-description" style="font-size: 16px;">
+                    <ul class="experience-description">
                         <li>Developing an ML model to detect diabetic retinopathy, using DRD dataset on TensorFlow.</li>
                         <li>Using InceptionV3 as my base for retina image recognition and CNN training.</li>
                     </ul>
@@ -275,9 +292,9 @@
             <div class="col-sm-12">
                 <div class="experience-item wow slideInUp">
                     <h3 class="experience-title">Mobile Applications Developer Intern</h3>
-                    <h4 class="experience-company" style="font-size: 14px;">FindingFive, New Jersey, USA</h4>
+                    <h4 class="experience-company">FindingFive, New Jersey, USA</h4>
                     <p class="experience-date">January 2023 - April 2023</p>
-                    <ul class="experience-description" style="font-size: 16px;">
+                    <ul class="experience-description">
                         <li>Built a real-time chat: service assistant - user.</li>
                         <li>Implemented NLP Voice recognition functionality to enhance UX.</li>
                         <li>Integrated Cloud notifications to enable real-time communication.</li>
@@ -290,9 +307,9 @@
             <div class="col-sm-12">
                 <div class="experience-item wow slideInUp">
                     <h3 class="experience-title">Android Engineer Intern</h3>
-                    <h4 class="experience-company" style="font-size: 14px;">GeekStudio - Bishkek, KG</h4>
+                    <h4 class="experience-company">GeekStudio - Bishkek, KG</h4>
                     <p class="experience-date">March 2022 - August 2022</p>
-                    <ul class="experience-description" style="font-size: 16px;">
+                    <ul class="experience-description">
                         <li>Used Dagger-Hilt, Coroutines, and REST API to establish efficient asynchronous URL requests.</li>
                         <li>Incorporated a local cache function using Room local database, improving data retrieval.</li>
                         <li>Integrated Firebase to store user data and implement authentication features.</li>
